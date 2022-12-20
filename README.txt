@@ -4,6 +4,6 @@ To use this tool you must format your CSV file correctly. Column A should contai
 
 To run the script, open the terminal and change directory to the folder in which the script is located. Enter "python western_dilution_calculator.py" in the terminal and hit return.
 
-You will then be prompted to enter a series of values, such as the filepath of your CSV datafile, total protein volume, dilution factor, etc. These will be used to calculate how much of your protein sample, buffer, and loading dye should be combined to create your desired final solution concentration.
+You will then be prompted to enter a series of values, such as the filepath of your CSV datafile, total protein volume, dilution factor, number of replicates, etc. These will be used to calculate how much of your protein sample, buffer, and loading dye should be combined to create your desired final solution concentration.
 
 Finally, you will be asked to enter the desired filename for your new CSV file containing all the new data which will be exported to the same folder as the script.
