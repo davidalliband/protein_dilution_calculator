@@ -13,7 +13,7 @@ print(TP_data)
 TP_data["Total_protein_volume"] = int(input("What is your total protein volume in ul? (e.g. for protein per ml enter 1000 or for per 500ul enter 500) "))
 
 # Request dilution factor for use in calculations
-TP_data["Dilution_factor"] = int(input("What is your dilution factor? (e.g. if calculating from protein per ml then use 20000 for 20ug of protein or 15000 for 15ug of protein) "))
+TP_data["Dilution_factor"] = int(input("What is your dilution factor? (e.g. if calculating from mg of protein per ml then use 20000 for 20ug of protein or 15000 for 15ug of protein) "))
 
 # Calculate sample volumes for desired amount of protein and add to dataframe
 TP_data["Sample_volume_replicate"] = (TP_data["Dilution_factor"] / TP_data["Total_protein"])
